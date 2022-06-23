@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+*{
+	font-family: 'Roboto Condensed', sans-serif; 
+}
+
+.servicios{
+background-color: beige;
+}
+
+
+
+
+
+
+
+
+
+nav ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 200px;
+  align-items: center;
+  font-size: 2rem;
+}
+nav ul li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  margin: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 15 px;
+  color: rgba(53, 66, 89, 1);
+  list-style-type: none;
+  display: inline-block;
+  font-size: 2.5rem;
+  padding-right: 40px;
+  background-color: rgba(255, 255, 255, .6);
+}
+
+.gradient{
+  background: linear-gradient(to right, #d5cdd2, #e7b3d9, #d5cdd2, #e7b3d9);
+}
+
+
+.nav-h1 {
+
+  font-size: 2.5rem;
+  color: negro;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);}
+
+.nav-h2 {
+  padding-right: 10px;
+  margin-right: 10px;
+  font-size: 1rem;
+  color: white;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-lila{
+	background-color: #C499BA;
+	}
+
+.bg-grey{
+	background-color: grey;
+	}
+
+.bg-grey1{
+  background-color: rgba(208, 201, 192, .5);
+  }
+.bg-nav{
+
+ height: 98vh;
+ animation-name: headeranimacion;
+ animation-duration: 20s;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease-in-out;
+ background-size: cover;
+}
+
+
+@keyframes 
+headeranimacion{
+ 0%{background-image: url(../imagen/foto/headercontacto.png);}
+25%{background-image: url(../imagen/foto/fotogaleria3.jpg);}
+75%{background-image: url(../imagen/foto/headernosotros.jpeg);}
+100%{background-image: url(../imagen/foto/fotogaleria1.png);}
+
+}	
+
+
+.bg-rosa{
+	background-color: #E2C2B9;
+	}
+
+.bg-main{background-image: url(../imagen/fondo/moroccan-flower.png);
+  background-attachment: fixed;
+	}
+
+.bg-negro{
+	background-color:#403E3E;
+}
+ 
+/*grid*/
+
+
+.grid{
+	width:99%;
+	display: grid;
+}
+
+
+.template-areas{
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 200px, auto, auto;
+	grid-template-areas: 
+	"nav nav nav"
+	"main main aside" 
+	"pie pie pie";
+	}
+
+#nav{
+	grid-area: nav;
+
+}
+
+#centro{
+	grid-area: main;
+}
+
+#aside{
+	grid-area: aside;
+}
+
+#pie{
+	grid-area: pie;
+}
+
+/*flex*/
+
+.container {
+ width: 100%;
+  height: auto;
+
+  margin: auto;
+  position: relative;
+  justify-items: center;
+ ;
+
+}
+
+.box {
+  padding: 20px;
+  text-align: left;
+
+}
+.margin {
+margin-right: 15px;
+}
+
+.boxy {
+  padding: 20px;
+  text-align: center;
+color: #4D4C7D;}
+
+.bg-pink {
+  background-color: #ffe6e6;
+}
+
+	.justify-content{
+		text-align: center;
+		padding: 5px;
+	}
+	.img-nosotros
+	{
+		width: auto;
+	}
+  
