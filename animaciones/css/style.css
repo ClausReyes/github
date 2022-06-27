@@ -8,45 +8,36 @@
 background-color: beige;
 }
 
+nav{
+flex-direction: row;
+display: flex;
 
-
-
-
-
-
-
-
-nav ul {
-  text-decoration: none;
-  list-style-type: none;
+}
+nav ul li{
   display: inline-block;
-  display: flex;
   justify-content:space-between;
-  align-items: center;
-  height: 200px;
-  align-items: center;
-  font-size: 2rem;
+  align-items: left;
+  padding-left: 130px;
 }
-nav ul li {
+  
+  
+ nav ul li a
+ {color: white;
   text-decoration: none;
-  list-style-type: none;
-  display: inline-block;
-  margin: 15px;
-}
-nav ul li a {
-  text-decoration: none;
-  font-size: 15 px;
-  color: rgba(53, 66, 89, 1);
-  list-style-type: none;
-  display: inline-block;
-  font-size: 2.5rem;
-  padding-right: 40px;
-  background-color: rgba(255, 255, 255, .6);
-}
+  text-align: center;
+font-size: larger;
+ }
 
-.gradient{
-  background: linear-gradient(to right, #d5cdd2, #e7b3d9, #d5cdd2, #e7b3d9);
-}
+
+
+
+
+
+
+
+
+
+
 
 
 .nav-h1 {
@@ -57,6 +48,14 @@ nav ul li a {
   font-family: "Roboto", sans-serif;
   background-color: rgba(255, 255, 255, 0.5);}
 
+  .nav-h11 {
+
+    font-size: 1.5rem;
+    color: negro;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(255, 255, 255, 0.4);}
+
 .nav-h2 {
   padding-right: 10px;
   margin-right: 10px;
@@ -65,6 +64,8 @@ nav ul li a {
   text-align: left;
   font-family: "Roboto", sans-serif;
 }
+
+.formato{color:white}
 
 .bg-lila{
 	background-color: #C499BA;
@@ -75,7 +76,8 @@ nav ul li a {
 	}
 
 .bg-grey1{
-  background-color: rgba(208, 201, 192, .5);
+  background-color: rgba(0, 0, 0, .7);
+  margin-left: 30px;
   }
 .bg-nav{
 
@@ -157,6 +159,18 @@ headeranimacion{
  ;
 
 }
+footer {margin-top: 20px;}
+
+.container2 {
+  width: 100%;
+   height: auto;
+ display: flex;
+   margin: auto;
+   position: relative;
+   justify-content: space-between
+  ;
+ 
+ }
 
 .box {
   padding: 20px;
